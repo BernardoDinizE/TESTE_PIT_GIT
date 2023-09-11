@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+body{
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+#jogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+#box{
+  width: 70vh;
+  height: 70vh;
+  border: 1px solid;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+}
+
+.boxbox{
+  border: 1px solid;
+}
+
+#paleta{
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  margin-top: 10px;
+  margin: 0 50px 0 50px;
+  padding: 10px;
+  border: 5px solid #462b1f;
+  border-radius: 15px;
+  background-color: #895635;
+}
+
+.cor{
+  border: 2px solid;
+  border-radius: 50px;
+}
+
+#black{
+  background-color: black;
+}
+
+#white{
+  background-color: white;
+}
+
+#pink{
+  background-color: pink;
+}
+
+#red{
+  background-color: red;
+}
+
+#orange{
+  background-color: orange;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+#green{
+  background-color: green;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#dodgerblue{
+  background-color: dodgerblue;
+}
+
+#brown{
+  background-color: #462b1f;
+}
+
+#purple{
+  background-color: purple;
+}
+
+#fuchsia{
+  background-color: fuchsia;
+}
+
+#darkturquoise{
+  background-color: darkturquoise;
+}
+
+#lawngreen{
+  background-color: lawngreen;
+}
+
+#darkred{
+  background-color: darkred;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-family: 'Borel', cursive;
+  font-size: 30px;
+  margin: 0;
+  animation: 3s linear infinite penises;
+}
+
+@keyframes penises{
+  0%{
+    color: red;
+  }
+
+  20%{
+    color: yellow;
+  }
+  40%{
+    color: green;
+  }
+  60%{
+    color: blue
+  }
+  80%{
+    color: purple
+  }
+  99%{
+    color: red;
+  }
+}
